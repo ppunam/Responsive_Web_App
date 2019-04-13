@@ -1,0 +1,142 @@
+#tour{
+	background-color: #c5cbce;
+	border-top:1px solid #1a758a;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#tour{
+	margin-left: 0px;
+	margin-right: 10px;
+	bottom: -10px;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	margin-left: 20%;
+}
+ul li{
+	display: inline-block;
+	padding: 6px;
+	color: black;
+}
+/*.custom-select select option{
+	background-color: #c5cbce;
+}*/
+@media screen and (max-width: 768px){
+	.w3-container{
+		padding: 0.01em 90px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.w3-container{
+		padding: 0.01em 20px;
+	}
+}
+@media screen and (max-width: 420px){
+	.w3-container{
+		padding: 0.01em 0px;
+	}
+}
+
+.btn1{
+	background-image: url(cropimages/adjacent.svg);
+	background-repeat: no-repeat;
+	background-position: 5px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 4px;
+	padding-top: 14px;
+	width: 45px;
+	height: 40px;
+}
+.select2{
+	background-image: url(cropimages/down_arrow.svg);
+	background-repeat: no-repeat;
+	background-position: 55px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 80px;
+	height: 40px;
+}
+.select3{
+background-image: url(cropimages/up_arrow.svg);
+	background-repeat: no-repeat;
+	background-position: 55px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 80px;
+	height: 40px;
+}
+.btn4{
+	background-image: url(cropimages/adjacent.svg);
+	background-repeat: no-repeat;
+	background-position: 5px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 4px;
+	padding-top: 14px;
+	width: 45px;
+	height: 40px;
+}
+.btn5{
+	background-image: url(cropimages/undo.svg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 4px;
+	padding-top: 14px;
+	width: 45px;
+	height: 40px;
+	
+}
+.btn6{
+	background-image: url(cropimages/redo.svg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 4px;
+	padding-top: 14px;
+	width: 45px;
+	height: 40px;
+	
+}
+
+
+.btn7{
+background-image: url(cropimages/reset.svg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 4px;
+	padding-top: 14px;
+	width: 45px;
+	height: 40px;
+	
+}
+
+.btn8{
+background-image: url(cropimages/help.svg);
+	background-repeat: no-repeat;
+	background-position: 15px;
+	border-radius: 3px;
+	border:1px solid #1a758a;
+	padding-left: 4px;
+	padding-top: 14px;
+	width: 46px;
+	height: 40px;
+	
+}
+
+select{
+-webkit-appearance: none;
+appearance: none;
