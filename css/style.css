@@ -1,11 +1,11 @@
-#tour{
+#mainContainer{
 	background-color: #c5cbce;
 	border-top:1px solid #1a758a;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
-#tour{
+#mainContainer{
 	margin-left: 0px;
 	margin-right: 10px;
 	bottom: -10px;
