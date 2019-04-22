@@ -38,9 +38,9 @@ ul li{
 }*/
 
 .btn1{
-	background-image: url(cropimages/adjacent.svg);
+	background-image: url(../images/add.png);
 	background-repeat: no-repeat;
-	background-position: 5px;
+	background-position: 12px;
 	border-radius: 3px;
 	border:1px solid #1a758a;
 	padding-left: 4px;
@@ -49,7 +49,7 @@ ul li{
 	height: 40px;
 }
 .select2{
-	background-image: url(cropimages/down_arrow.svg);
+	background-image: url(../images/down_arrow.png);
 	background-repeat: no-repeat;
 	background-position: 55px;
 	border-radius: 3px;
@@ -61,7 +61,7 @@ ul li{
 	height: 40px;
 }
 .select3{
-background-image: url(cropimages/up_arrow.svg);
+background-image: url(../images/up_arrow.png);
 	background-repeat: no-repeat;
 	background-position: 55px;
 	border-radius: 3px;
@@ -73,9 +73,9 @@ background-image: url(cropimages/up_arrow.svg);
 	height: 40px;
 }
 .btn4{
-	background-image: url(cropimages/adjacent.svg);
+	background-image: url(../images/adjacent.png);
 	background-repeat: no-repeat;
-	background-position: 5px;
+	background-position: 12px;
 	border-radius: 3px;
 	border:1px solid #1a758a;
 	padding-left: 4px;
@@ -84,7 +84,7 @@ background-image: url(cropimages/up_arrow.svg);
 	height: 40px;
 }
 .btn5{
-	background-image: url(cropimages/undo.svg);
+	background-image: url(../images/undo.png);
 	background-repeat: no-repeat;
 	background-position: 10px;
 	border-radius: 3px;
@@ -96,7 +96,7 @@ background-image: url(cropimages/up_arrow.svg);
 	
 }
 .btn6{
-	background-image: url(cropimages/redo.svg);
+	background-image: url(../images/redo.png);
 	background-repeat: no-repeat;
 	background-position: 10px;
 	border-radius: 3px;
@@ -110,7 +110,7 @@ background-image: url(cropimages/up_arrow.svg);
 
 
 .btn7{
-background-image: url(cropimages/reset.svg);
+background-image: url(../images/reset.png);
 	background-repeat: no-repeat;
 	background-position: 10px;
 	border-radius: 3px;
@@ -123,7 +123,7 @@ background-image: url(cropimages/reset.svg);
 }
 
 .btn8{
-background-image: url(cropimages/help.svg);
+background-image: url(../images/help.png);
 	background-repeat: no-repeat;
 	background-position: 15px;
 	border-radius: 3px;
