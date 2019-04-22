@@ -3,12 +3,12 @@
 	border-top:1px solid #1a758a;
 	position: absolute;
 	bottom: 0;
-	width: 100%;
+	width: 99%;
 }
 #mainContainer{
 	margin-left: 0px;
 	margin-right: 10px;
-	bottom: -10px;
+	
 }
 ul{
 	list-style-type: none;
@@ -20,29 +20,27 @@ ul li{
 	padding: 6px;
 	color: black;
 }
-/*.custom-select select option{
-	background-color: #c5cbce;
-}*/
-@media screen and (max-width: 768px){
-	.w3-container{
-		padding: 0.01em 90px;
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+	#mainContainer{
+		width: 98%;
 	}
-}
-@media screen and (max-width: 1024px){
-	.w3-container{
-		padding: 0.01em 20px;
+	ul{
+		margin-left: 7%;
 	}
-}
-@media screen and (max-width: 420px){
-	.w3-container{
-		padding: 0.01em 0px;
-	}
+	
 }
 
+/*@media screen and (min-width: 700px){
+	.w3-container{
+		background-color: yellow;
+	}
+}*/
+
 .btn1{
-	background-image: url(../images/add.png);
+	background-image: url(cropimages/adjacent.svg);
 	background-repeat: no-repeat;
-	background-position: 12px;
+	background-position: 5px;
 	border-radius: 3px;
 	border:1px solid #1a758a;
 	padding-left: 4px;
@@ -51,7 +49,7 @@ ul li{
 	height: 40px;
 }
 .select2{
-	background-image: url(../images/down_arrow.png);
+	background-image: url(cropimages/down_arrow.svg);
 	background-repeat: no-repeat;
 	background-position: 55px;
 	border-radius: 3px;
@@ -63,7 +61,7 @@ ul li{
 	height: 40px;
 }
 .select3{
-background-image: url(../images/up_arrow.png);
+background-image: url(cropimages/up_arrow.svg);
 	background-repeat: no-repeat;
 	background-position: 55px;
 	border-radius: 3px;
@@ -75,9 +73,9 @@ background-image: url(../images/up_arrow.png);
 	height: 40px;
 }
 .btn4{
-	background-image: url(../images/adjacent.png);
+	background-image: url(cropimages/adjacent.svg);
 	background-repeat: no-repeat;
-	background-position: 12px;
+	background-position: 5px;
 	border-radius: 3px;
 	border:1px solid #1a758a;
 	padding-left: 4px;
@@ -86,7 +84,7 @@ background-image: url(../images/up_arrow.png);
 	height: 40px;
 }
 .btn5{
-	background-image: url(../images/undo.png);
+	background-image: url(cropimages/undo.svg);
 	background-repeat: no-repeat;
 	background-position: 10px;
 	border-radius: 3px;
@@ -98,7 +96,7 @@ background-image: url(../images/up_arrow.png);
 	
 }
 .btn6{
-	background-image: url(../images/redo.png);
+	background-image: url(cropimages/redo.svg);
 	background-repeat: no-repeat;
 	background-position: 10px;
 	border-radius: 3px;
@@ -112,7 +110,7 @@ background-image: url(../images/up_arrow.png);
 
 
 .btn7{
-background-image: url(../images/reset.png);
+background-image: url(cropimages/reset.svg);
 	background-repeat: no-repeat;
 	background-position: 10px;
 	border-radius: 3px;
@@ -125,7 +123,7 @@ background-image: url(../images/reset.png);
 }
 
 .btn8{
-background-image: url(../images/help.png);
+background-image: url(cropimages/help.svg);
 	background-repeat: no-repeat;
 	background-position: 15px;
 	border-radius: 3px;
